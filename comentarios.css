@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'kdam thmor pro', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 50px;
+    color: #fff;
+    background-color: rgb(85, 19, 19);
+}
+
+.coments{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20%;
+    position: relative;
+}
+
+#cadastro {
+    background: #f9f9f9;
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2), 0 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#cadastro h1 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}

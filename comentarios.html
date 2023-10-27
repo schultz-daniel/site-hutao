@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comentarios</title>
+    <link rel="stylesheet" href="comentarios.css">
+
+    <style>
+
+        textarea{
+            resize: none;
+        }
+
+        textarea:invalid{
+            border: 2px solid red;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="coments">
+        <form id="cadastro" action="script.php" method="get">
+            <h1>Comentários</h1>
+            <textarea id="coment" name="comentarios" placeholder="Digite sua Mensagem!!!" cols="50" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>

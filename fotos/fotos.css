@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #bfbfbf;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'kdam thmor pro', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #000;
+}
+
+.galerry-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 2vw;
+}
+
+.galerry-items {
+    width: 340px;
+    height: 340px;
+    border: 10px solid #fff;
+    box-shadow: 5px 5px 5px #0006;
+    flex-grow: 1;
+    transition: transform .3s linear;
+}
+
+.galerry-items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galerry-items:hover {
+    transform: scale(1.3);
+
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-style: italic;
+}
